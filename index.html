@@ -3,31 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Presentation Card</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <section>
-      <div class="content">
-        <a href="">
-          <div class="card">
-            <div class="backgroundCard"></div>
-            <div class="contentCard">
-                <a class="profileImage" href=""></a>
-                <div class="nameAndAge">
-                    <p class="name"></p>
-                    <p class="age"></p>
-                </div>
-                <p class="job"></p>
-                <p class="address"></p>
-                <a class="projectsLink" href=""></a>
-                <div class="phoneAndEmail">
-                    <a class="phone" href=""></a>
-                    <a class="email" href=""></a>
-                </div>
-            </div>
-            <!--Remember use z index in css to move the profile picture in front of background card-->
+      <div class="card">
+        <div class="backgroundTopCard">
+          <img src="src/assets/celestial-comet-passage-stockcake.jpg" id="backgroundProfilePicture">
+         
+        </div>
+        <img src="src/assets/my_face.jpg" id="profilePicture">
+        <div class="contentCard"> 
+          <div class="nameAndAge">
+            <p class="name">Gonzalo</p>
+            <p class="age"> 27</p>
           </div>
-        </a>
+          <p class="job">Software Engineer</p>
+          <p class="address">Apodaca, N.L.</p>
+          <p>Click here for </p><a class="projectsLink" href="https://github.com/GonzaloC-Dev">Github Profile</a>
+          <div class="phoneAndEmail">
+            <p class="phone">8130789495</p>
+            <p class="email">goonzalo_cantu_t@hotmail.com</p>
+          </div>
+        </div>
+        <!--Remember you can use z index in css to move the profile picture in front of background card-->
       </div>
     </section>
   </body>
